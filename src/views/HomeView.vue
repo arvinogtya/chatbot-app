@@ -188,11 +188,11 @@ export default {
   padding: 1rem 0 5rem;
 }
 
-.header {
+/* .header {
   width: 90vw;
   max-width: 720px;
-  /* padding: 1rem 1.5rem;
-  margin: 1rem auto 0; */
+  padding: 1rem 1.5rem;
+  margin: 1rem auto 0;
   background-color: #ffffff;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
@@ -202,7 +202,7 @@ export default {
   align-items: start;
   gap: 1rem;
   user-select: none;
-}
+} */
 
 .title {
   font-weight: 600;
