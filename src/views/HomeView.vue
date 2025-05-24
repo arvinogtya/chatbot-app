@@ -92,7 +92,7 @@ const scrollToBottom = async () => {
     <footer class="input-footer" role="form" aria-label="Message input form">
       <textarea
         v-model="input"
-        placeholder="Message Viu Ai"
+        placeholder="Message Viu"
         class="input-field"
         rows="1"
         @keydown.enter.exact.prevent="handleAsk"
