@@ -179,7 +179,7 @@ export default {
 
 .blackbox-container {
   font-family: 'Inter', sans-serif;
-  background-color: #121217;
+  background-color: white;
   color: #e5e5e5;
   min-height: 100vh;
   display: flex;
