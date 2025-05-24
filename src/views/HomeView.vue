@@ -256,13 +256,13 @@ export default {
 /* User Chat bubble */
 UserChat {
   align-self: flex-end;
-  background: #ffffff;
+  background: #7c5dfa;
   color: white;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 0 20px;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 12px rgb(124 93 250 / 0.5);
   font-size: 1rem;
   user-select: text;
 }
@@ -270,13 +270,13 @@ UserChat {
 /* Bot Chat bubble */
 BotChat {
   align-self: flex-start;
-  background: #000000;
+  background: #2d2f49;
   color: #ccccee;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 20px 0;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 14px rgba(13, 13, 13, 0.6);
+  box-shadow: 0 6px 14px rgb(45 47 73 / 0.6);
   font-size: 1rem;
   font-family: 'Source Code Pro', monospace;
   user-select: text;
@@ -288,47 +288,47 @@ BotChat {
   bottom: 1.25rem;
   width: 90vw;
   max-width: 720px;
-  background-color: #131416;
+  background-color: #1f2029;
   border-radius: 2rem;
   padding: 0.85rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  box-shadow: 0 10px 18px rgba(39, 39, 40, 0.7);
-  border: 1px solid #000000;
+  box-shadow: 0 10px 18px rgb(124 93 250 / 0.7);
+  border: 1px solid #7c5dfa;
   z-index: 150;
 }
 
 /* Textarea */
 .input-field {
   flex-grow: 1;
-  background-color: #17171b;
+  background-color: #1a1a2f;
   border: none;
   border-radius: 1.5rem;
   padding: 0.7rem 1rem;
   font-size: 1rem;
-  color: #000000;
+  color: #e5e5e5;
   font-family: 'Inter', sans-serif;
   outline: none;
   resize: none;
-  box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #5e4fd1;
   transition: background-color 0.25s ease;
   min-height: 40px;
 }
 
 .input-field::placeholder {
-  color: #ffffff;
+  color: #8888aa;
   font-style: italic;
 }
 
 .input-field:focus {
-  background-color: #ffffff;
-  box-shadow: 0 0 10px #ffffff;
+  background-color: #271f5a;
+  box-shadow: 0 0 10px #7c5dfa;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: white;
+  background-color: #7c5dfa;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -337,7 +337,7 @@ BotChat {
   border-radius: 1.5rem;
   cursor: pointer;
   user-select: none;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 6px 14px rgb(124 93 250 / 0.8);
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
@@ -346,8 +346,8 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #000000;
-  box-shadow: 0 8px 18px rgba(3, 3, 3, 0.9);
+  background-color: #906dff;
+  box-shadow: 0 8px 18px rgb(144 109 255 / 0.9);
 }
 
 .btn-send:disabled {
@@ -375,13 +375,13 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #f8f8f8;
+  background: #1e1e2f;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #7c5dfa;
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 2px solid #1e1e2f;
 }
 
 /* Responsive */
@@ -406,4 +406,3 @@ BotChat {
   }
 }
 </style>
-
