@@ -319,7 +319,7 @@ BotChat {
 }
 
 .input-field::placeholder {
-  color: #0f0f0f;
+  color: #ffffff;
   font-style: italic;
 }
 
@@ -348,7 +348,7 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #777777;
+  background-color: #000000;
   box-shadow: 0 8px 18px rgba(3, 3, 3, 0.9);
 }
 
