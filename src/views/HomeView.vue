@@ -189,7 +189,6 @@ export default {
 }
 
 .header {
-  width: 100vh;
   /* max-width: 720px; */
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
