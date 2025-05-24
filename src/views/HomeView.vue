@@ -338,7 +338,7 @@ BotChat {
   border-radius: 1.5rem;
   cursor: pointer;
   user-select: none;
-  box-shadow: 0 6px 14px rgb(124 93 250 / 0.8);
+  box-shadow: 0 6px 14px rgba(6, 6, 6, 0.8);
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
