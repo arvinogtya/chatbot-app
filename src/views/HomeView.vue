@@ -54,10 +54,10 @@ const scrollToBottom = async () => {
 </script>
 <template>
   <div class="blackbox-container">
-    <header class="header items-start">
-      <!-- <ThemeTogle /> -->
-      <h2 class="title">TEKON OPO AE LAEEKK</h2>
-    </header>
+    <!-- <header class="header items-start">
+      <ThemeTogle />
+      <h2 class="title"></h2>
+    </header> -->
 
     <main
       ref="chatContainer"
@@ -67,7 +67,8 @@ const scrollToBottom = async () => {
       aria-live="polite"
     >
       <div v-if="userChats.length === 0" class="empty-state">
-        <p>ada yang bisa saya bantuuu??</p>
+        <p class="font-italic">HALLAAWWW!!!</p>
+        <p class="font-italic">Ask VIUU AI Anything</p>
       </div>
 
       <div class="messages" role="list">
@@ -92,7 +93,7 @@ const scrollToBottom = async () => {
     <footer class="input-footer" role="form" aria-label="Message input form">
       <textarea
         v-model="input"
-        placeholder="Type your message..."
+        placeholder="Tekon OPO..."
         class="input-field"
         rows="1"
         @keydown.enter.exact.prevent="handleAsk"
@@ -179,7 +180,7 @@ export default {
 
 .blackbox-container {
   font-family: 'Inter', sans-serif;
-  background-color: #121217;
+  background-color: #ffffff;
   color: #e5e5e5;
   min-height: 100vh;
   display: flex;
@@ -254,13 +255,13 @@ export default {
 /* User Chat bubble */
 UserChat {
   align-self: flex-end;
-  background: #7c5dfa;
-  color: white;
+  background: #ffffff;
+  color: rgb(52, 51, 51);
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 0 20px;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 12px rgb(124 93 250 / 0.5);
+  box-shadow: 0 6px 12px rgba(23, 23, 23, 0.5);
   font-size: 1rem;
   user-select: text;
 }
