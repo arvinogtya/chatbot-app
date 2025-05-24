@@ -54,7 +54,7 @@ const scrollToBottom = async () => {
 </script>
 <template>
   <div class="blackbox-container">
-    <header class="header items-start">
+    <header class="header">
       <!-- <ThemeTogle /> -->
       <h2 class="title">TEKON OPO AE LAEEKK</h2>
     </header>
@@ -193,13 +193,13 @@ export default {
   max-width: 720px;
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
-  background-color: #1f2029;
+  background-color: #ffffff;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
-  color: #f0f0f0;
+  color: #000000;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   gap: 1rem;
   user-select: none;
 }
