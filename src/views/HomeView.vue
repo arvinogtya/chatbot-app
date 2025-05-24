@@ -195,8 +195,8 @@ export default {
   margin: 1rem auto 0;
   font-style: italic;
   background-color: #ffffff;
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
+  /* border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5); */
   color: #000000;
   display: flex;
   justify-content: start;
