@@ -3,8 +3,8 @@ import { marked } from 'marked'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github.css'
 import { useSlots, ref, defineEmits, onMounted } from 'vue'
-// import IconCopy from './icons/IconCopy.vue'
-// import IconCheck from './icons/IconCheck.vue'
+import IconCopy from './icons/IconCopy.vue'
+import IconCheck from './icons/IconCheck.vue'
 
 const slots = useSlots()
 const emit = defineEmits(['doneTyping'])

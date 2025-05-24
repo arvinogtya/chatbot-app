@@ -2,8 +2,8 @@
 import UserChat from '../components/UserChat.vue'
 import BotChat from '../components/BotChat.vue'
 // import ThemeTogle from '../components/ThemeTogle.vue'
-import { requestGemini } from '@/services/gemini.js'
-import { greetingTime } from '@/services/greeting.js'
+import { requestGemini } from '@/services/gemini'
+import { greetingTime } from '@/services/greeting'
 import { ref, nextTick, onMounted } from 'vue'
 import IconLoad from '../components/icons/IconLoad.vue'
 
@@ -52,8 +52,6 @@ const scrollToBottom = async () => {
   }
 }
 </script>
-
-
 <template>
   <div class="blackbox-container">
     <header class="header items-start">
