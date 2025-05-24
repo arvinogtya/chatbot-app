@@ -179,7 +179,7 @@ export default {
 
 .blackbox-container {
   font-family: 'Inter', sans-serif;
-  background-color: white;
+  background-color: rgb(131, 131, 150);
   color: #e5e5e5;
   min-height: 100vh;
   display: flex;
@@ -215,7 +215,7 @@ export default {
 .chat-area {
   width: 90vw;
   max-width: 720px;
-  background-color: #1e1e2f;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   height: 78vh;
   margin: 1rem auto 0;
