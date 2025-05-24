@@ -56,7 +56,7 @@ const scrollToBottom = async () => {
   <div class="blackbox-container">
     <header class="header">
       <!-- <ThemeTogle /> -->
-      <h2 class="title">HALLAAWWW!!</h2>
+      <h2 class="title">TEKON OPO AE LAEEKK</h2>
     </header>
 
     <main
@@ -189,22 +189,24 @@ export default {
 }
 
 .header {
-  width: 85vw;
+  display: flex;
+  justify-content: flex-start;
+}
+/* .header {
+  width: 90vw;
   max-width: 720px;
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
   background-color: #ffffff;
-  color: black;
-  font-style: italic;
-  /* border-radius: 0.75rem;
-  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5); */
-  /* color: #000000;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
+  color: #000000;
   display: flex;
   justify-content: start;
   align-items: start;
   gap: 1rem;
-  user-select: none; */
-}
+  user-select: none;
+} */
 
 .title {
   font-weight: 600;
@@ -213,17 +215,16 @@ export default {
   letter-spacing: 0.02em;
 }
 
-
 /* Chat Area */
 .chat-area {
   width: 90vw;
   max-width: 720px;
-  background-color: #1e1e2f;
+  background-color: rgb(255, 255, 255);
   border-radius: 1rem;
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #111;
+  box-shadow: inset 0 0 12px #ffffff;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -257,13 +258,13 @@ export default {
 /* User Chat bubble */
 UserChat {
   align-self: flex-end;
-  background: #7c5dfa;
+  background: #ffffff;
   color: white;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 0 20px;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 12px rgb(124 93 250 / 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   user-select: text;
 }
@@ -271,13 +272,13 @@ UserChat {
 /* Bot Chat bubble */
 BotChat {
   align-self: flex-start;
-  background: #2d2f49;
+  background: #000000;
   color: #ccccee;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 20px 0;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 14px rgb(45 47 73 / 0.6);
+  box-shadow: 0 6px 14px rgba(13, 13, 13, 0.6);
   font-size: 1rem;
   font-family: 'Source Code Pro', monospace;
   user-select: text;
@@ -289,21 +290,21 @@ BotChat {
   bottom: 1.25rem;
   width: 90vw;
   max-width: 720px;
-  background-color: #1f2029;
+  background-color: #131416;
   border-radius: 2rem;
   padding: 0.85rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  box-shadow: 0 10px 18px rgb(124 93 250 / 0.7);
-  border: 1px solid #7c5dfa;
+  box-shadow: 0 10px 18px rgba(105, 104, 108, 0.7);
+  border: 1px solid #000000;
   z-index: 150;
 }
 
 /* Textarea */
 .input-field {
   flex-grow: 1;
-  background-color: #1a1a2f;
+  background-color: #17171b;
   border: none;
   border-radius: 1.5rem;
   padding: 0.7rem 1rem;
@@ -312,24 +313,24 @@ BotChat {
   font-family: 'Inter', sans-serif;
   outline: none;
   resize: none;
-  box-shadow: inset 0 0 10px #5e4fd1;
+  box-shadow: inset 0 0 10px #000000;
   transition: background-color 0.25s ease;
   min-height: 40px;
 }
 
 .input-field::placeholder {
-  color: #8888aa;
+  color: #ffffff;
   font-style: italic;
 }
 
 .input-field:focus {
-  background-color: #271f5a;
-  box-shadow: 0 0 10px #7c5dfa;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: #7c5dfa;
+  background-color: #131416;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -338,7 +339,7 @@ BotChat {
   border-radius: 1.5rem;
   cursor: pointer;
   user-select: none;
-  box-shadow: 0 6px 14px rgb(124 93 250 / 0.8);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.8);
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
@@ -347,8 +348,8 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #906dff;
-  box-shadow: 0 8px 18px rgb(144 109 255 / 0.9);
+  background-color: #000000;
+  box-shadow: 0 8px 18px rgba(3, 3, 3, 0.9);
 }
 
 .btn-send:disabled {
@@ -376,13 +377,13 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #1e1e2f;
+  background: #f8f8f8;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-  background-color: #7c5dfa;
+  background-color: #000000;
   border-radius: 10px;
-  border: 2px solid #1e1e2f;
+  border: 2px solid #ffffff;
 }
 
 /* Responsive */
@@ -407,3 +408,4 @@ BotChat {
   }
 }
 </style>
+
