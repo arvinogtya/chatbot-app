@@ -319,12 +319,12 @@ BotChat {
 }
 
 .input-field::placeholder {
-  color: #8888aa;
+  color: #0f0f0f;
   font-style: italic;
 }
 
 .input-field:focus {
-  background-color: #271f5a;
+  background-color: #ffffff;
   box-shadow: 0 0 10px #ffffff;
 }
 
