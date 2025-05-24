@@ -181,7 +181,7 @@ export default {
   font-family: 'Inter', sans-serif;
   background-color: rgb(255, 255, 255);
   color: #e5e5e5;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
