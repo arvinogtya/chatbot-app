@@ -56,7 +56,7 @@ const scrollToBottom = async () => {
   <div class="blackbox-container">
     <header class="header">
       <!-- <ThemeTogle /> -->
-      <h2 class="title">TEKON OPO AE LAEEKK</h2>
+      <h2 class="title">HALLAAWWW!!</h2>
     </header>
 
     <main
