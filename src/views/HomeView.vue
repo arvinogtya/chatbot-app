@@ -320,13 +320,13 @@ BotChat {
 }
 
 .input-field:focus {
-  background-color: #271f5a;
-  box-shadow: 0 0 10px #7c5dfa;
+  background-color: #000000;
+  box-shadow: 0 0 10px #3a3a3b;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: #7c5dfa;
+  background-color: #ffffff;
   color: white;
   font-weight: 600;
   font-size: 1rem;
