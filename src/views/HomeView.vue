@@ -286,21 +286,21 @@ BotChat {
   bottom: 1.25rem;
   width: 90vw;
   max-width: 720px;
-  background-color: #1f2029;
+  background-color: #131416;
   border-radius: 2rem;
   padding: 0.85rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  box-shadow: 0 10px 18px rgb(124 93 250 / 0.7);
-  border: 1px solid #7c5dfa;
+  box-shadow: 0 10px 18px rgba(105, 104, 108, 0.7);
+  border: 1px solid #000000;
   z-index: 150;
 }
 
 /* Textarea */
 .input-field {
   flex-grow: 1;
-  background-color: #1a1a2f;
+  background-color: #17171b;
   border: none;
   border-radius: 1.5rem;
   padding: 0.7rem 1rem;
@@ -309,7 +309,7 @@ BotChat {
   font-family: 'Inter', sans-serif;
   outline: none;
   resize: none;
-  box-shadow: inset 0 0 10px #5e4fd1;
+  box-shadow: inset 0 0 10px #000000;
   transition: background-color 0.25s ease;
   min-height: 40px;
 }
@@ -321,12 +321,12 @@ BotChat {
 
 .input-field:focus {
   background-color: #271f5a;
-  box-shadow: 0 0 10px #7c5dfa;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: #7c5dfa;
+  background-color: #000000;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -335,7 +335,7 @@ BotChat {
   border-radius: 1.5rem;
   cursor: pointer;
   user-select: none;
-  box-shadow: 0 6px 14px rgb(124 93 250 / 0.8);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.8);
   transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
@@ -344,7 +344,7 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #906dff;
+  background-color: #777777;
   box-shadow: 0 8px 18px rgb(144 109 255 / 0.9);
 }
 
