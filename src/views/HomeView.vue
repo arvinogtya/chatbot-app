@@ -56,7 +56,7 @@ const scrollToBottom = async () => {
   <div class="blackbox-container">
     <header class="header items-start">
       <ThemeTogle />
-      <h2 class="title">HALLAWW!</h2>
+      <h2 class="title">Ask VIUU AI Anything</h2>
     </header>
 
     <main
@@ -67,7 +67,7 @@ const scrollToBottom = async () => {
       aria-live="polite"
     >
       <div v-if="userChats.length === 0" class="empty-state">
-        <p class="font-italic">Ask VIUU AI Anything</p>
+        <p>Hallaawwww!!!</p>
       </div>
 
       <div class="messages" role="list">
@@ -92,7 +92,7 @@ const scrollToBottom = async () => {
     <footer class="input-footer" role="form" aria-label="Message input form">
       <textarea
         v-model="input"
-        placeholder="Tekon OPO..."
+        placeholder="Message Viu Ai"
         class="input-field"
         rows="1"
         @keydown.enter.exact.prevent="handleAsk"
@@ -318,7 +318,7 @@ BotChat {
 }
 
 .input-field::placeholder {
-  color: #8888aa;
+  color: #e7e7ed;
   font-style: italic;
 }
 
@@ -347,7 +347,7 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #1a1a1b;
+  background-color: #1d1d27;
   box-shadow: 0 8px 18px rgba(21, 21, 21, 0.9);
 }
 
