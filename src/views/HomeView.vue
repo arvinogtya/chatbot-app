@@ -54,10 +54,10 @@ const scrollToBottom = async () => {
 </script>
 <template>
   <div class="blackbox-container">
-    <header class="header">
-      <!-- <ThemeTogle /> -->
+    <!-- <header class="header">
+      <ThemeTogle />
       <h2 class="title">TEKON OPO AE LAEEKK</h2>
-    </header>
+    </header> -->
 
     <main
       ref="chatContainer"
@@ -67,7 +67,7 @@ const scrollToBottom = async () => {
       aria-live="polite"
     >
       <div v-if="userChats.length === 0" class="empty-state">
-        <p>ada yang bisa saya bantuuu??</p>
+        <p>Ask Chatbot AI Anything</p>
       </div>
 
       <div class="messages" role="list">
@@ -179,7 +179,7 @@ export default {
 
 .blackbox-container {
   font-family: 'Inter', sans-serif;
-  background-color: rgb(131, 131, 150);
+  background-color: rgb(255, 255, 255);
   color: #e5e5e5;
   min-height: 100vh;
   display: flex;
@@ -373,7 +373,7 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #1e1e2f;
+  background: #ffffff;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
