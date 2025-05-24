@@ -272,13 +272,13 @@ UserChat {
 /* Bot Chat bubble */
 BotChat {
   align-self: flex-start;
-  background: #2d2f49;
+  background: #000000;
   color: #ccccee;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 20px 0;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 14px rgb(45 47 73 / 0.6);
+  box-shadow: 0 6px 14px rgba(13, 13, 13, 0.6);
   font-size: 1rem;
   font-family: 'Source Code Pro', monospace;
   user-select: text;
@@ -330,7 +330,7 @@ BotChat {
 
 /* Buttons */
 .btn-send {
-  background-color: #000000;
+  background-color: #131416;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -349,7 +349,7 @@ BotChat {
 
 .btn-send:hover:not(:disabled) {
   background-color: #777777;
-  box-shadow: 0 8px 18px rgb(144 109 255 / 0.9);
+  box-shadow: 0 8px 18px rgba(3, 3, 3, 0.9);
 }
 
 .btn-send:disabled {
