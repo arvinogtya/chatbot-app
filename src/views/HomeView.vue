@@ -220,7 +220,7 @@ export default {
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #111;
+  box-shadow: inset 0 0 12px #ffffff;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
