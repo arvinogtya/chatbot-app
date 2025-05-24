@@ -54,10 +54,10 @@ const scrollToBottom = async () => {
 </script>
 <template>
   <div class="blackbox-container">
-    <!-- <header class="header">
-      <ThemeTogle />
+    <header class="header items-start">
+      <!-- <ThemeTogle /> -->
       <h2 class="title">TEKON OPO AE LAEEKK</h2>
-    </header> -->
+    </header>
 
     <main
       ref="chatContainer"
@@ -67,7 +67,7 @@ const scrollToBottom = async () => {
       aria-live="polite"
     >
       <div v-if="userChats.length === 0" class="empty-state">
-        <p>Ask VIUU AI Anything</p>
+        <p>ada yang bisa saya bantuuu??</p>
       </div>
 
       <div class="messages" role="list">
@@ -179,7 +179,7 @@ export default {
 
 .blackbox-container {
   font-family: 'Inter', sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: #121217;
   color: #e5e5e5;
   min-height: 100vh;
   display: flex;
@@ -193,13 +193,13 @@ export default {
   max-width: 720px;
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
-  background-color: #ffffff;
+  background-color: #1f2029;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
-  color: #000000;
+  color: #f0f0f0;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   user-select: none;
 }
@@ -215,7 +215,7 @@ export default {
 .chat-area {
   width: 90vw;
   max-width: 720px;
-  background-color: rgb(255, 255, 255);
+  background-color: #1e1e2f;
   border-radius: 1rem;
   height: 78vh;
   margin: 1rem auto 0;
@@ -377,7 +377,7 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #7c5dfa;
   border-radius: 10px;
   border: 2px solid #1e1e2f;
 }
