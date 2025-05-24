@@ -194,10 +194,10 @@ export default {
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
   font-style: italic;
-  background-color: #000000;
+  background-color: #ffffff;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
-  color: #f0f0f0;
+  color: #000000;
   display: flex;
   justify-content: start;
   align-items: start;
@@ -221,7 +221,7 @@ export default {
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #111;
+  box-shadow: inset 0 0 12px #ffffff;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -289,21 +289,21 @@ BotChat {
   bottom: 1.25rem;
   width: 90vw;
   max-width: 720px;
-  background-color: #1f2029;
+  background-color: #1d1d27;
   border-radius: 2rem;
   padding: 0.85rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  box-shadow: 0 10px 18px rgb(124 93 250 / 0.7);
-  border: 1px solid #7c5dfa;
+  box-shadow: 0 10px 18px #1d1d27;
+  border: 1px solid #49484b;
   z-index: 150;
 }
 
 /* Textarea */
 .input-field {
   flex-grow: 1;
-  background-color: #1a1a2f;
+  background-color: #1d1d27;
   border: none;
   border-radius: 1.5rem;
   padding: 0.7rem 1rem;
@@ -312,7 +312,7 @@ BotChat {
   font-family: 'Inter', sans-serif;
   outline: none;
   resize: none;
-  box-shadow: inset 0 0 10px #5e4fd1;
+  box-shadow: inset 0 0 10px #38383a;
   transition: background-color 0.25s ease;
   min-height: 40px;
 }
@@ -323,13 +323,13 @@ BotChat {
 }
 
 .input-field:focus {
-  background-color: #271f5a;
-  box-shadow: 0 0 10px #7c5dfa;
+  background-color: #262528;
+  box-shadow: 0 0 10px #2a2a2c;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: #7c5dfa;
+  background-color: #19191a;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -347,8 +347,8 @@ BotChat {
 }
 
 .btn-send:hover:not(:disabled) {
-  background-color: #906dff;
-  box-shadow: 0 8px 18px rgb(144 109 255 / 0.9);
+  background-color: #1a1a1b;
+  box-shadow: 0 8px 18px rgba(21, 21, 21, 0.9);
 }
 
 .btn-send:disabled {
@@ -361,7 +361,7 @@ BotChat {
   width: 20px;
   height: 20px;
   animation: spin 1s linear infinite;
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 @keyframes spin {
@@ -376,7 +376,7 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #1e1e2f;
+  background: #171718;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
