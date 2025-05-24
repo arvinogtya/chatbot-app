@@ -189,24 +189,20 @@ export default {
 }
 
 .header {
-  display: flex;
-  justify-content: flex-start;
-}
-/* .header {
-  width: 90vw;
-  max-width: 720px;
+  width: 100vh;
+  /* max-width: 720px; */
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
   background-color: #ffffff;
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
+  /* border-radius: 0.75rem;
+  box-shadow: 0 4px 14px rgb(10 10 10 / 0.5); */
   color: #000000;
   display: flex;
   justify-content: start;
   align-items: start;
   gap: 1rem;
   user-select: none;
-} */
+}
 
 .title {
   font-weight: 600;
@@ -309,7 +305,7 @@ BotChat {
   border-radius: 1.5rem;
   padding: 0.7rem 1rem;
   font-size: 1rem;
-  color: #e5e5e5;
+  color: #000000;
   font-family: 'Inter', sans-serif;
   outline: none;
   resize: none;
@@ -330,7 +326,7 @@ BotChat {
 
 /* Buttons */
 .btn-send {
-  background-color: #131416;
+  background-color: white;
   color: white;
   font-weight: 600;
   font-size: 1rem;
