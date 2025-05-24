@@ -292,7 +292,7 @@ BotChat {
   display: flex;
   align-items: center;
   gap: 1rem;
-  box-shadow: 0 10px 18px rgba(105, 104, 108, 0.7);
+  box-shadow: 0 10px 18px rgba(39, 39, 40, 0.7);
   border: 1px solid #000000;
   z-index: 150;
 }
