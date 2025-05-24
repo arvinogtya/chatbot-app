@@ -213,16 +213,17 @@ export default {
   letter-spacing: 0.02em;
 }
 
+
 /* Chat Area */
 .chat-area {
   width: 90vw;
   max-width: 720px;
-  background-color: rgb(255, 255, 255);
+  background-color: #1e1e2f;
   border-radius: 1rem;
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #ffffff;
+  box-shadow: inset 0 0 12px #111;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
