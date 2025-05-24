@@ -377,13 +377,13 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #1e1e2f;
+  background: #f8f8f8;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
   background-color: #000000;
   border-radius: 10px;
-  border: 2px solid #1e1e2f;
+  border: 2px solid #ffffff;
 }
 
 /* Responsive */
