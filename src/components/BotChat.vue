@@ -53,7 +53,7 @@ const copy = () => {
 <template>
   <div class="w-full flex justify-start h-fit mb-2 flex-col gap-2">
     <div
-      class="mr-2 w-fit text-stone-900 dark:bg-grey-200 bg-gray-200 p-4 rounded-r-xl rounded-tl-xl border border-black overflow-x-hidden whitespace-normal max-w-full"
+      class="mr-2 w-fit text-stone-900 dark:bg-grey-200 bg-gray-200 p-4 rounded-md border border-black overflow-x-hidden whitespace-normal max-w-full"
       v-html="htmlContent"
     ></div>
     <!-- <button @click="copy" class="flex justify-start" v-if="!isCopy && isDone">

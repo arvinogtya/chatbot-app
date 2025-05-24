@@ -3,7 +3,7 @@
 <template>
   <div class="w-full flex justify-end h-fit mb-2">
     <p
-      class="mr-2 w-fit bg-black dark:bg-black p-4 rounded-l-xl rounded-tr-xl border-solid border-slate-300 whitespace-pre-line text-white"
+      class="mr-2 w-fit bg-black dark:bg-black p-4 rounded-l-xl rounded-md border border-slate-300 whitespace-pre-line text-white"
     >
       <slot />
     </p>
