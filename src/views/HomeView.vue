@@ -220,7 +220,7 @@ export default {
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #111;
+  box-shadow: inset 0 0 12px #ffffff;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -254,13 +254,13 @@ export default {
 /* User Chat bubble */
 UserChat {
   align-self: flex-end;
-  background: #7c5dfa;
+  background: #ffffff;
   color: white;
   padding: 0.85rem 1.3rem;
   border-radius: 20px 20px 0 20px;
   max-width: 75%;
   white-space: pre-wrap;
-  box-shadow: 0 6px 12px rgb(124 93 250 / 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   user-select: text;
 }
