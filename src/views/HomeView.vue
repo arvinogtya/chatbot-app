@@ -194,15 +194,16 @@ export default {
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
   background-color: #ffffff;
+  color: black;
   font-style: italic;
   /* border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5); */
-  color: #000000;
+  /* color: #000000;
   display: flex;
   justify-content: start;
   align-items: start;
   gap: 1rem;
-  user-select: none;
+  user-select: none; */
 }
 
 .title {
