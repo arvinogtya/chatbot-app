@@ -188,6 +188,10 @@ export default {
   padding: 1rem 0 5rem;
 }
 
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
 /* .header {
   width: 90vw;
   max-width: 720px;
