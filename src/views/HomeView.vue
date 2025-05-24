@@ -54,10 +54,10 @@ const scrollToBottom = async () => {
 </script>
 <template>
   <div class="blackbox-container">
-    <!-- <header class="header items-start">
+    <header class="header items-start">
       <ThemeTogle />
-      <h2 class="title"></h2>
-    </header> -->
+      <h2 class="title">HALLAWW!</h2>
+    </header>
 
     <main
       ref="chatContainer"
@@ -67,7 +67,6 @@ const scrollToBottom = async () => {
       aria-live="polite"
     >
       <div v-if="userChats.length === 0" class="empty-state">
-        <p class="font-italic">HALLAAWWW!!!</p>
         <p class="font-italic">Ask VIUU AI Anything</p>
       </div>
 
@@ -194,13 +193,14 @@ export default {
   max-width: 720px;
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
-  background-color: #1f2029;
+  font-style: italic;
+  background-color: #000000;
   border-radius: 0.75rem;
   box-shadow: 0 4px 14px rgb(10 10 10 / 0.5);
   color: #f0f0f0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   gap: 1rem;
   user-select: none;
 }
@@ -216,7 +216,7 @@ export default {
 .chat-area {
   width: 90vw;
   max-width: 720px;
-  background-color: #1e1e2f;
+  background-color: #ffffff;
   border-radius: 1rem;
   height: 78vh;
   margin: 1rem auto 0;
@@ -233,11 +233,13 @@ export default {
 
 .empty-state {
   font-size: 1.4rem;
+  font-style: italic;
   color: #7f7f9a;
   text-align: center;
   margin-top: 4rem;
   user-select: none;
 }
+
 
 /* Messages */
 .messages {
