@@ -1,7 +1,7 @@
-import { GoogleGenAI } from '@google/genai'
+import { GoogleGenerativeAI } from '@google/generative-ai'
 const GEMINI_API = import.meta.env.VITE_GEMINI
 
-const ai = new GoogleGenAI({ apiKey: GEMINI_API })
+const ai = new GoogleGenerativeAI({ apiKey: GEMINI_API })
 
 export const requestGemini = async (contents) => {
   const response = await ai.models.generateContent({
