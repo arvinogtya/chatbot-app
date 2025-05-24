@@ -220,7 +220,7 @@ export default {
   height: 78vh;
   margin: 1rem auto 0;
   padding: 1.5rem 2rem;
-  box-shadow: inset 0 0 12px #ffffff;
+  box-shadow: inset 0 0 12px #111;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -320,13 +320,13 @@ BotChat {
 }
 
 .input-field:focus {
-  background-color: #000000;
-  box-shadow: 0 0 10px #3a3a3b;
+  background-color: #271f5a;
+  box-shadow: 0 0 10px #7c5dfa;
 }
 
 /* Buttons */
 .btn-send {
-  background-color: #ffffff;
+  background-color: #7c5dfa;
   color: white;
   font-weight: 600;
   font-size: 1rem;
@@ -373,11 +373,11 @@ BotChat {
 }
 
 .chat-area::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #1e1e2f;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-  background-color: #7c5dfa;
+  background-color: #000000;
   border-radius: 10px;
   border: 2px solid #1e1e2f;
 }
