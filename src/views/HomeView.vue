@@ -189,7 +189,7 @@ export default {
 }
 
 .header {
-  /* max-width: 720px; */
+  max-width: 720px;
   padding: 1rem 1.5rem;
   margin: 1rem auto 0;
   background-color: #ffffff;
